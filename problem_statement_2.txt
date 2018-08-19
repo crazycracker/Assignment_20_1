@@ -1,0 +1,18 @@
+1. What are the three stages to build the hypotheses or model in machine learning?
+A.	a) Model Building 
+	b) Model Testing
+	c) Applying the model
+
+
+2. What is the standard approach to supervised learning? 
+A.	Splitting the dataset into training and testing sets.
+
+3. What is Training set and testing set ?
+A. Training set and testing set constitute the whole dataset. Potentially training set is given to the learner and    Test set is used to test the accuracy. Training set and testing set are distinct from each other.
+
+4. What is the general principle of an ensemble method and what is bagging and
+boosting in ensemble method?
+A. The general principle of an ensemble method is to combine the predictions of several models built with a given      learning algorithm in order to improve robustness over a single model. Bagging is a method in ensemble for          improving unstable estimation or classification schemes. While boosting method are used sequentially to reduce      the bias of the combined model. Boosting and Bagging both can reduce errors by reducing the variance term.
+
+5. How can you avoid overfitting ?
+A. By using a lot of data overfitting can be avoided. Overfitting happens because of a small dataset and trying to    learn from it. In such situations, one can use cross validation. In this method, data is split into two    sections, testing and training, the testing dataset will only test the model while, in training dataset, the    datapoints will come up with the model.The idea of cross validation is to define a dataset to “test” the model    in the training phase.
